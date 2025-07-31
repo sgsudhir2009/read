@@ -1,0 +1,6 @@
+try:
+    fle=open('sample.txt','r')
+    rdf=fle.readlines()
+    fle.close()
+except FileNotFoundError:
+    print('the file sample.txt is not found')
